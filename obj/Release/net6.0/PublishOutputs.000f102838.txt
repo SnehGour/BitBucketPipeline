@@ -1,0 +1,7 @@
+C:\Users\snehg\OneDrive\Desktop\GettingPowerFull\dotNet\dotnet\BitbucketdotnetCore6\obj\Release\net6.0\PubTmp\Out\BitbucketdotnetCore6.exe
+C:\Users\snehg\OneDrive\Desktop\GettingPowerFull\dotNet\dotnet\BitbucketdotnetCore6\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\snehg\OneDrive\Desktop\GettingPowerFull\dotNet\dotnet\BitbucketdotnetCore6\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\snehg\OneDrive\Desktop\GettingPowerFull\dotNet\dotnet\BitbucketdotnetCore6\obj\Release\net6.0\PubTmp\Out\BitbucketdotnetCore6.dll
+C:\Users\snehg\OneDrive\Desktop\GettingPowerFull\dotNet\dotnet\BitbucketdotnetCore6\obj\Release\net6.0\PubTmp\Out\BitbucketdotnetCore6.deps.json
+C:\Users\snehg\OneDrive\Desktop\GettingPowerFull\dotNet\dotnet\BitbucketdotnetCore6\obj\Release\net6.0\PubTmp\Out\BitbucketdotnetCore6.runtimeconfig.json
+C:\Users\snehg\OneDrive\Desktop\GettingPowerFull\dotNet\dotnet\BitbucketdotnetCore6\obj\Release\net6.0\PubTmp\Out\BitbucketdotnetCore6.pdb

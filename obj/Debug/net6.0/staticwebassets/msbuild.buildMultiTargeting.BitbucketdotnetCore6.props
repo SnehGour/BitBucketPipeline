@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BitbucketdotnetCore6.props" />
+</Project>
