@@ -9,7 +9,7 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
-    return "Hello World";
+    return "Hello World from dev";
 });
 
 app.Run();
