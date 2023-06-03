@@ -1,0 +1,34 @@
+image: mcr.microsoft.com/dotnet/sdk:6.0
+pipelines:
+  default:
+    - step:
+        name: Build and Test
+        script:
+          - echo "Building and testing..."
+
+  branches:
+    dev:
+      - step:
+          name: Deploy on Local
+          runs-on: 
+          - self.hosted
+          - windows
+          - local
+          script:
+            - Stop-Service -Name "W3SVC" -Force
+            - Start-Sleep -Seconds 2
+            - dotnet publish --configuration Release --output "C:\Sites\Demo"
+            - Start-Service -Name "W3SVC"
+
+    master:
+    - step:
+              name: Deploy on Staging
+              runs-on: 
+              - self.hosted
+              - windows
+              - vm
+              script:
+                - Stop-Service -Name "W3SVC" -Force
+                - Start-Sleep -Seconds 2
+                - dotnet publish --configuration Release --output "C:\Sites\Demo"
+                - Start-Service -Name "W3SVC"
